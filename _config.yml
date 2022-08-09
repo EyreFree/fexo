@@ -55,6 +55,9 @@ home_nav:
   # - name: Battle.net
   #   url: http://d3.blizzard.cn/profile/EyreFree-5717/478027
   #   target: _blank
+  # - name: 苏ICP备15023694号-1
+  #   url: http://beian.miit.gov.cn
+  #   target: _blank
 
 # config page nav
 page_nav:
@@ -116,7 +119,7 @@ backtop:
 donation:
   show: true
   btn_text: 支持一下
-  tip: 给 EyreFree 投食，QAQ
+  tip: 🚀 给 EF 刷火箭 🚀
   items:
     - type: 微信
       text: 微信扫一扫
@@ -220,6 +223,10 @@ valine:
 # 不算子,文章访问量统计和显示
 busuanzi: true
 
+# 底部页脚
+footer:
+  beian: "苏ICP备15023694号-1"
+
 # =========================================================
 # 页面内容设置
 # =========================================================
@@ -244,6 +251,26 @@ about:
   #   text_key: 推特
   #   text_value: "EyreFree777"
   #   text_value_url: https://twitter.com/EyreFree777
+  # - type: info
+  #   icon: icon-info
+  #   text_key: 备案
+  #   text_value: "苏ICP备15023694号-1"
+  #   text_value_url: http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action
+  - type: github
+    icon: icon-github
+    text_key: GitHub
+    text_value: EyreFree
+    text_value_url: http://github.com/EyreFree
+  - type: leetcode
+    icon: icon-info
+    text_key: LeetCode
+    text_value: EyreFree
+    text_value_url: https://leetcode-cn.com/u/eyrefree/
+  - type: steam
+    icon: icon-info
+    text_key: Steam
+    text_value: EyreFree
+    text_value_url: http://steamcommunity.com/id/EyreFree
   - type: mail
     icon: icon-mail
     text_key: 邮箱
@@ -254,53 +281,24 @@ about:
     text_key: 位置
     text_value: "无锡"
     text_value_url: "https://map.baidu.com/search/%E6%97%A0%E9%94%A1%E5%B8%82"
-  - type: info
-    icon: icon-info
-    text_key: 备案
-    text_value: "苏ICP备15023694号-1"
-    text_value_url: http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action
 
 link:
   - name: TimothyQiu's Blog
     info: Hi, this is Timothy Qiu. I'm a new programmer.
     url: http://timothyqiu.com/
     avatar: https://avatars.githubusercontent.com/u/372476?v=4
-  - name: 沉没大陆
-    info: Blog for Daterlove
-    url: http://www.sinkland.cn/
-    avatar: https://avatars0.githubusercontent.com/u/11631445?v=3&s=460
-  - name: 江小湖Laker
-    info: 进击的程序媛
-    url: http://laker.me/blog/
-    avatar: https://avatars.githubusercontent.com/u/3895607?v=4
   - name: 佳佳酱
     info: 跨次元日常卖萌
     url: https://luojia.me/
     avatar: https://avatars.githubusercontent.com/u/4150781?v=4
-  - name: 六阿哥博客
-    info: 记录一个iOS程序员的成长历程
-    url: https://blog.6ag.cn
-    avatar: https://avatars0.githubusercontent.com/u/9330618?v=3&s=460
-  - name: Guardia·瓜地
-    info: Innovation, in iOS development.
-    url: http://www.desgard.com/
-    avatar: https://avatars3.githubusercontent.com/u/7804535?v=3&s=460
   - name: 卜卜口
     info: 前端开发、人像写真
     url: http://mouto.org
     avatar: https://avatars0.githubusercontent.com/u/1933673?s=460&v=4
-  - name: 画渣程序猿MM
-    info: 不喜欢画画的程序猿不是好翻译
-    url: http://mmoaay.github.io/
-    avatar: https://avatars1.githubusercontent.com/u/4161013?v=3&s=460
   - name: 一缕殇流化隐半边冰霜
     info: 在每一个苦思冥想的瞬间求知
     url: https://halfrost.com/
     avatar: https://avatars0.githubusercontent.com/u/10825609?v=3&s=460
-  - name: Enum
-    info: iOS エンジニア
-    url: yuusann.com
-    avatar: https://avatars0.githubusercontent.com/u/29399077?s=460&v=4
   - name: Sunnyyoung
     info: iOS / macOS 开发者、开源爱好者、专业逆向开发，全栈，啥都会
     url: https://www.sunnyyoung.net/
