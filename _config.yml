@@ -1,7 +1,7 @@
 # Blog info
 blog_name: EyreFree
 slogan: This is the way the world ends, not with a bang, but a whimper.
-url: http://www.eyrefree.org
+url: https://eyrefree.org
 
 # Set avatar (Absolute url and relative url)
 avatar: https://avatars.githubusercontent.com/u/10757132
@@ -143,7 +143,8 @@ post:
 # =========================================================
 
 # Custom CSS style, 推荐把样式文件放在blog源码文件夹，而不是主题里面
-personal_style: /css/personal-style.css
+# 如果不想启用自定义样式，注释这行就可以了
+# personal_style: /css/personal-style.css
 
 # 这个值取决于你得背景图片是深色还是浅色，深色用dark，浅色用light
 home_background_scheme: light # dark、light
@@ -161,7 +162,7 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # =========================================================
 # Stats
 #google_analytics: UA-74357398-1
-baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
+#baidu_analytics: 638f7245dab1e13e3d8fbdd9cc3b0895
 
 # Comment service
 
@@ -225,7 +226,8 @@ busuanzi: true
 
 # 底部页脚
 footer:
-  beian: "苏ICP备15023694号-1"
+  #beian: "苏ICP备15023694号-1"
+  beian: ""
 
 # =========================================================
 # 页面内容设置
@@ -276,11 +278,11 @@ about:
     text_key: 邮箱
     text_value: "eyrefree@eyrefree.org"
     text_value_url: mailto:eyrefree@eyrefree.org
-  - type: location
-    icon: icon-location
-    text_key: 位置
-    text_value: "无锡"
-    text_value_url: "https://map.baidu.com/search/%E6%97%A0%E9%94%A1%E5%B8%82"
+  # - type: location
+    # icon: icon-location
+    # text_key: 位置
+    # text_value: "无锡"
+    # text_value_url: "https://map.baidu.com/search/%E6%97%A0%E9%94%A1%E5%B8%82"
 
 link:
   - name: TimothyQiu's Blog
@@ -310,7 +312,3 @@ project:
     name: EFQRCode
     url: https://www.efqrcode.com
     intro: iOS 艺术二维码生成
-  - type: personal
-    name: EFIconFont
-    url: https://github.com/EFPrefix/EFIconFont
-    intro: 一个 Swift 实现的普通的 IconFont 封装
